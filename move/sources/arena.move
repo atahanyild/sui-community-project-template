@@ -66,5 +66,6 @@ public fun battle(hero: Hero, arena: Arena, ctx: &mut TxContext) {
     transfer::public_transfer(hero, winner);
 
     object::delete(id);
+    
 }
 
